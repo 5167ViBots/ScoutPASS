@@ -2,8 +2,7 @@ name: Create Release
 
 on:
   release:
-    types:
-      - created
+    types: [published]
 jobs:
   build:
     uses: 5167ViBots/ScoutPASS/.github/workflows/Build Android.yml@main
